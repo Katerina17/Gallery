@@ -1,0 +1,26 @@
+/* Gallery */
+
+body {
+    background-image: url(image/uLrWbwC.jpg);
+}
+
+.gallery {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.gallery img {
+    margin: 20px;
+    border: 5px solid white;
+    box-shadow:  0 0 9px #c2ef2a;
+    border-radius: 7px;
+}
+
+/*img:hover {
+    border: 5px solid #f44e1b;
+}*/
+
+a:hover img {
+    border: 5px solid #f44e1b;
+}
